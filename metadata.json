@@ -1,0 +1,6 @@
+{
+  "name": "مهندسان مشاور فراسازه | مدیریت هوشمند و کنترل پروژه",
+  "description": "وب‌سایت تخصصی مهندسان مشاور فراسازه در حوزه مدیریت پروژه، کنترل پروژه، برنامه‌ریزی و زمان‌بندی، BIM و تحول دیجیتال در صنعت ساخت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

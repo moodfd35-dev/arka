@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مهندسان مشاور فراسازه | مدیریت هوشمند و کنترل پروژه</title>
+    <meta
+      name="description"
+      content="مشاوره تخصصی مدیریت مهندسی پروژه، برنامه‌ریزی و زمان‌بندی، کنترل پروژه، مدیریت هزینه، BIM و تحول دیجیتال در پروژه‌های زیرساختی و ساختمانی."
+    />
+    <meta
+      name="keywords"
+      content="مدیریت پروژه, کنترل پروژه, برنامه‌ریزی پروژه, مدیریت ساخت, BIM, PMO, EVM, مشاوره مهندسی"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Social Meta -->
+    <meta property="og:title" content="مهندسان مشاور فراسازه | مدیریت هوشمند و کنترل پروژه" />
+    <meta
+      property="og:description"
+      content="از ایده تا اجرا، با رویکردی یکپارچه در مدیریت، برنامه‌ریزی و کنترل پروژه‌های مهندسی."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#07111F" />
+
+    <!-- Fonts: Vazirmatn (Primary Persian), Space Grotesk & JetBrains Mono (Technical Acronyms/Tabular Data) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Modular Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+
+    <!-- Schema.org Structured Data (WordPress SEO Ready) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EngineeringFirm",
+        "name": "مهندسان مشاور فراسازه",
+        "description": "مشاوره تخصصی مدیریت مهندسی پروژه، برنامه‌ریزی، کنترل پروژه و تحول دیجیتال در صنعت ساخت.",
+        "inLanguage": "fa-IR",
+        "serviceType": [
+          "Project Management",
+          "Project Controls",
+          "BIM Consultancy",
+          "Construction Management"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">پرش به محتوای اصلی</a>
+
+    <!-- Floating Glassmorphism Navigation Header -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#hero" class="brand-logo" aria-label="صفحه اصلی مهندسان مشاور فراسازه">
+          <svg class="brand-mark" width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <path d="M18 2L32 10V26L18 34L4 26V10L18 2Z" stroke="#00D4FF" stroke-width="1.5" />
+            <path d="M18 8L27 13V23L18 28L9 23V13L18 8Z" stroke="#1677FF" stroke-width="1.5" />
+            <path d="M18 2V18M18 18L32 10M18 18L4 10M18 18V34" stroke="#A7B4C5" stroke-opacity="0.45" stroke-width="1" />
+            <circle cx="18" cy="18" r="2.5" fill="#B6F23A" />
+          </svg>
+          <span class="brand-name" data-i18n="brand.name">مهندسان مشاور فراسازه</span>
+        </a>
+
+        <nav class="primary-nav" id="primaryNav" aria-label="ناوبری اصلی">
+          <ul class="nav-list">
+            <li><a href="#hero" class="nav-link is-active" data-nav="hero" data-i18n="nav.home">صفحه اصلی</a></li>
+            <li><a href="#about" class="nav-link" data-nav="about" data-i18n="nav.about">درباره ما</a></li>
+            <li><a href="#services" class="nav-link" data-nav="services" data-i18n="nav.services">خدمات تخصصی</a></li>
+            <li><a href="#technology" class="nav-link" data-nav="technology" data-i18n="nav.specialties">تخصص‌های ما</a></li>
+            <li><a href="#portfolio" class="nav-link" data-nav="portfolio" data-i18n="nav.projects">پروژه‌ها</a></li>
+            <li><a href="#articles" class="nav-link" data-nav="articles" data-i18n="nav.articles">مقالات</a></li>
+            <li><a href="#contact" class="nav-link" data-nav="contact" data-i18n="nav.contact">تماس با ما</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            type="button"
+            id="langToggleBtn"
+            class="lang-switcher"
+            aria-label="تغییر زبان وب‌سایت"
+            title="تغییر زبان (فارسی / انگلیسی)"
+          >
+            <span class="lang-opt is-current" data-lang-label="fa">FA</span>
+            <span class="lang-sep" aria-hidden="true">/</span>
+            <span class="lang-opt" data-lang-label="en">EN</span>
+          </button>
+
+          <button
+            type="button"
+            id="mobileMenuBtn"
+            class="mobile-menu-toggle"
+            aria-label="باز کردن منوی موبایل"
+            aria-expanded="false"
+            aria-controls="mobileDrawer"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
+      <nav class="mobile-drawer-panel" aria-label="منوی موبایل">
+        <div class="mobile-drawer-head">
+          <span class="brand-name" data-i18n="brand.name">مهندسان مشاور فراسازه</span>
+          <button type="button" id="mobileDrawerClose" class="icon-close-btn" aria-label="بستن منو">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link" data-i18n="nav.home">صفحه اصلی</a></li>
+          <li><a href="#about" class="mobile-nav-link" data-i18n="nav.about">درباره ما</a></li>
+          <li><a href="#services" class="mobile-nav-link" data-i18n="nav.services">خدمات تخصصی</a></li>
+          <li><a href="#dashboard" class="mobile-nav-link" data-i18n="nav.dashboard">داشبورد کنترل پروژه</a></li>
+          <li><a href="#technology" class="mobile-nav-link" data-i18n="nav.specialties">تخصص‌های ما</a></li>
+          <li><a href="#portfolio" class="mobile-nav-link" data-i18n="nav.projects">پروژه‌ها</a></li>
+          <li><a href="#articles" class="mobile-nav-link" data-i18n="nav.articles">مقالات</a></li>
+          <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">تماس با ما</a></li>
+        </ul>
+        <div class="mobile-drawer-foot">
+          <a href="#contact" class="btn btn-primary btn-full" data-i18n="hero.ctaSecondary">شروع همکاری</a>
+        </div>
+      </nav>
+    </div>
+
+    <main id="main-content">
+      <!-- 05. HERO SECTION – ADVANCED 3D EXPERIENCE -->
+      <section class="hero-section" id="hero" aria-labelledby="heroHeading">
+        <div class="hero-canvas-wrap" id="hero3DContainer" aria-hidden="true">
+          <!-- WebGL canvas injected here by js/three-scene.js -->
+          <!-- CSS-based Engineering Blueprint Fallback if WebGL unavailable -->
+          <div class="webgl-fallback" id="webglFallback">
+            <div class="fallback-grid"></div>
+            <div class="fallback-tower">
+              <div class="fallback-ring ring-1"></div>
+              <div class="fallback-ring ring-2"></div>
+              <div class="fallback-ring ring-3"></div>
+              <div class="fallback-core"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scrim" aria-hidden="true"></div>
+
+        <div class="container hero-content-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker" data-i18n="hero.kicker">
+              حکمرانی مهندسی · کنترل هوشمند پروژه · استاندارد <bdi dir="ltr">PMO / BIM</bdi>
+            </p>
+            <h1 class="hero-title" id="heroHeading" data-i18n="hero.title">
+              مهندسی هوشمند،<br />
+              مدیریت دقیق،<br />
+              آینده‌ای ماندگار
+            </h1>
+            <p class="hero-description" data-i18n="hero.desc">
+              از ایده تا اجرا، با رویکردی یکپارچه در مدیریت، برنامه‌ریزی و کنترل پروژه‌های مهندسی.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#services" class="btn btn-primary magnetic-btn" data-i18n="hero.ctaPrimary">
+                خدمات تخصصی ما
+              </a>
+              <a href="#contact" class="btn btn-secondary magnetic-btn" data-i18n="hero.ctaSecondary">
+                شروع همکاری
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-scene-controls" aria-label="کنترل‌های مدل سه‌بعدی سازه">
+            <button type="button" class="scene-ctrl-btn is-active" data-scene-mode="solid" title="نمای سازه مهندسی">
+              نمای سازه
+            </button>
+            <button type="button" class="scene-ctrl-btn" data-scene-mode="wireframe" title="نمای مش فنی">
+              نمای فنی <bdi dir="ltr">CAD</bdi>
+            </button>
+            <button type="button" class="scene-ctrl-btn" data-scene-mode="explode" title="تفکیک لایه‌های سازه‌ای">
+              تفکیک لایه‌ها
+            </button>
+          </div>
+        </div>
+
+        <a href="#about" class="hero-scroll-hint" aria-label="اسکرول به بخش درباره ما">
+          <span class="scroll-line" aria-hidden="true"></span>
+          <span data-i18n="hero.scroll">مشاهده توانمندی‌ها</span>
+        </a>
+      </section>
+
+      <!-- 07. ABOUT US -->
+      <section class="section about-section" id="about" aria-labelledby="aboutHeading">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-editorial gs-reveal">
+              <p class="section-eyebrow" data-i18n="about.eyebrow">درباره ما</p>
+              <h2 class="section-title" id="aboutHeading" data-i18n="about.title">
+                فراتر از مهندسی؛ خلق ارزش در مدیریت پروژه
+              </h2>
+              <p class="section-lead" data-i18n="about.desc">
+                ما با تلفیق دانش مهندسی، مدیریت راهبردی و ابزارهای نوین کنترل پروژه، مسیر اجرای پروژه‌های پیچیده را هوشمندتر، دقیق‌تر و اثربخش‌تر می‌کنیم.
+              </p>
+              <p class="about-body">
+                تیم مهندسان مشاور فراسازه با تکیه بر استانداردهای بین‌المللی <bdi dir="ltr">PMBOK</bdi>، <bdi dir="ltr">ISO 19650</bdi> و روش‌های پیشرفته مدیریت ارزش کسب‌شده (<bdi dir="ltr">EVM</bdi>)، شفافیت کامل مالی و زمانی را برای کارفرمایان پروژه‌های زیرساختی، صنعتی و ابنیه بزرگ تضمین می‌کند.
+              </p>
+
+              <!-- Animated Placeholder Statistics (Editable Data) -->
+              <div class="stats-grid" aria-label="شاخص‌های کلیدی (داده‌های نمونه قابل ویرایش)">
+                <div class="stat-item">
+                  <div class="stat-value tabular-nums" data-counter-target="15" data-counter-suffix="+">۰+</div>
+                  <div class="stat-label" data-i18n="stats.exp">سال تجربه</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value tabular-nums" data-counter-target="120" data-counter-suffix="+">۰+</div>
+                  <div class="stat-label" data-i18n="stats.projects">پروژه</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value tabular-nums" data-counter-target="35" data-counter-suffix="+">۰+</div>
+                  <div class="stat-label" data-i18n="stats.experts">متخصص</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value tabular-nums" data-counter-target="98" data-counter-suffix="٪">۰٪</div>
+                  <div class="stat-label" data-i18n="stats.satisfaction">رضایت مشتریان</div>
+                </div>
+              </div>
+              <p class="data-disclaimer">* ارقام فوق به عنوان شاخص‌های نمونه و قابل ویرایش جهت نمایش ساختار ارائه شده‌اند.</p>
+            </div>
+
+            <div class="about-visual-frame gs-reveal">
+              <div class="image-frame-card">
+                <img
+                  src="/src/assets/images/about_engineering_hq_1795519105642.jpg"
+                  alt="فضای داخلی دفتر مهندسان مشاور فراسازه با سازه‌های فولادی و میز مدل‌سازی دیجیتال BIM"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  class="about-image"
+                />
+                <div class="image-corner-reticle top-right" aria-hidden="true"></div>
+                <div class="image-corner-reticle bottom-left" aria-hidden="true"></div>
+                <div class="about-visual-caption">
+                  <span class="caption-code" dir="ltr">PMO · ISO-19650</span>
+                  <span>مرکز طراحی و کنترل یکپارچه پروژه‌های کلان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 08. SERVICES (12 Interactive Cards) -->
+      <section class="section services-section" id="services" aria-labelledby="servicesHeading">
+        <div class="container">
+          <header class="section-header gs-reveal">
+            <p class="section-eyebrow" data-i18n="services.eyebrow">خدمات تخصصی</p>
+            <h2 class="section-title" id="servicesHeading" data-i18n="services.title">
+              منظومه جامع خدمات مهندسی و مدیریت پروژه
+            </h2>
+            <p class="section-subtitle">
+              دوازده خدمت تخصصی هم‌راستا برای پوشش کامل چرخه عمر پروژه؛ از مطالعات امکان‌سنجی تا تحویل نهایی و بهره‌برداری.
+            </p>
+          </header>
+
+          <!-- Data-driven service cards rendered by js/main.js -->
+          <div class="services-grid" id="servicesGrid"></div>
+        </div>
+      </section>
+
+      <!-- 09. PROJECT CONTROL DASHBOARD -->
+      <section class="section dashboard-section" id="dashboard" aria-labelledby="dashboardHeading">
+        <div class="container">
+          <header class="section-header dashboard-header-row gs-reveal">
+            <div>
+              <p class="section-eyebrow" data-i18n="dashboard.eyebrow">مرکز فرماندهی کنترل پروژه</p>
+              <h2 class="section-title" id="dashboardHeading" data-i18n="dashboard.title">
+                داشبورد هوشمند پایش و کنترل پروژه
+              </h2>
+              <p class="section-subtitle">
+                پایش برخط شاخص‌های <bdi dir="ltr">KPI</bdi>، منحنی پیشرفت <bdi dir="ltr">S-Curve</bdi>، عملکرد هزینه (<bdi dir="ltr">CPI</bdi>) و برنامه زمان‌بندی (<bdi dir="ltr">SPI</bdi>) با داده‌های نمایشی نمونه.
+              </p>
+            </div>
+
+            <div class="dashboard-project-switcher" role="tablist" aria-label="انتخاب پروژه نمونه داشبورد">
+              <button type="button" class="dash-tab is-active" role="tab" aria-selected="true" data-dash-project="tower">
+                برج اداری آوا
+              </button>
+              <button type="button" class="dash-tab" role="tab" aria-selected="false" data-dash-project="metro">
+                توسعه مترو شرق
+              </button>
+              <button type="button" class="dash-tab" role="tab" aria-selected="false" data-dash-project="energy">
+                پالایشگاه پارس
+              </button>
+            </div>
+          </header>
+
+          <div class="dashboard-shell gs-reveal">
+            <div class="dashboard-topbar">
+              <div class="dash-meta">
+                <span class="dash-project-code" id="dashProjectCode" dir="ltr">PRJ-2026-AVA</span>
+                <span aria-hidden="true">·</span>
+                <span id="dashProjectName">پروژه برج اداری و تجاری آوا</span>
+                <span aria-hidden="true">·</span>
+                <span class="demo-data-note">داده‌های نمایشی نمونه (Demo Data)</span>
+              </div>
+              <div class="dash-status-label" id="dashStatusLabel">وضعیت: مطابق برنامه</div>
+            </div>
+
+            <!-- KPI Summary Row -->
+            <div class="dash-kpi-grid">
+              <div class="dash-kpi-card">
+                <span class="kpi-label">درصد پیشرفت</span>
+                <div class="kpi-value-row">
+                  <strong class="kpi-value tabular-nums" id="kpiProgress">۷۴.۵٪</strong>
+                  <span class="kpi-delta positive tabular-nums" id="kpiProgressDelta">+۱.۸٪</span>
+                </div>
+                <div class="kpi-bar-track">
+                  <div class="kpi-bar-fill" id="kpiProgressBar" style="width: 74.5%"></div>
+                </div>
+              </div>
+
+              <div class="dash-kpi-card">
+                <span class="kpi-label">شاخص عملکرد پروژه (<bdi dir="ltr">SPI / CPI</bdi>)</span>
+                <div class="kpi-value-row">
+                  <strong class="kpi-value tabular-nums" id="kpiSpiCpi" dir="ltr">1.03 / 0.98</strong>
+                </div>
+                <span class="kpi-sub" id="kpiEvmNote">شاخص ارزش کسب‌شده (<bdi dir="ltr">EVM</bdi>)</span>
+              </div>
+
+              <div class="dash-kpi-card">
+                <span class="kpi-label">انحراف از برنامه</span>
+                <div class="kpi-value-row">
+                  <strong class="kpi-value tabular-nums" id="kpiVariance">+۶ روز</strong>
+                </div>
+                <span class="kpi-sub" id="kpiVarianceNote">پیشرفت جلوتر از مسیر بحرانی <bdi dir="ltr">CPM</bdi></span>
+              </div>
+
+              <div class="dash-kpi-card">
+                <span class="kpi-label">عملکرد هزینه</span>
+                <div class="kpi-value-row">
+                  <strong class="kpi-value tabular-nums" id="kpiCostPerf">۹۶.۲٪</strong>
+                </div>
+                <span class="kpi-sub" id="kpiCostNote">تطابق بودجه مصوب با هزینه واقعی</span>
+              </div>
+            </div>
+
+            <!-- Charts & Gantt Row -->
+            <div class="dash-main-grid">
+              <div class="dash-panel">
+                <div class="dash-panel-head">
+                  <h3>مقایسه پیشرفت برنامه‌ای و واقعی</h3>
+                  <span class="dash-code" dir="ltr">S-CURVE · EVM</span>
+                </div>
+                <div class="chart-box">
+                  <canvas id="progressCurveChart" aria-label="نمودار مقایسه پیشرفت برنامه‌ای و واقعی"></canvas>
+                </div>
+              </div>
+
+              <div class="dash-panel">
+                <div class="dash-panel-head">
+                  <h3>مدیریت منابع و تخصیص بودجه</h3>
+                  <span class="dash-code" dir="ltr">RESOURCE · COST</span>
+                </div>
+                <div class="chart-box">
+                  <canvas id="resourceChart" aria-label="نمودار تخصیص منابع و عملکرد هزینه"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- RTL Gantt Chart + Risk & Status Matrix -->
+            <div class="dash-bottom-grid">
+              <div class="dash-panel gantt-panel">
+                <div class="dash-panel-head">
+                  <h3>برنامه زمان‌بندی (<bdi dir="ltr">Gantt Chart</bdi>)</h3>
+                  <span class="dash-code" dir="ltr">WBS · CPM</span>
+                </div>
+                <div class="gantt-rtl-container" id="ganttContainer"></div>
+              </div>
+
+              <div class="dash-panel risk-panel">
+                <div class="dash-panel-head">
+                  <h3>تحلیل ریسک و گزارش وضعیت</h3>
+                  <span class="dash-code" dir="ltr">RISK · KPI</span>
+                </div>
+                <div class="risk-list" id="riskContainer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. PORTFOLIO -->
+      <section class="section portfolio-section" id="portfolio" aria-labelledby="portfolioHeading">
+        <div class="container">
+          <header class="section-header gs-reveal">
+            <p class="section-eyebrow" data-i18n="portfolio.eyebrow">نمونه پروژه‌ها</p>
+            <h2 class="section-title" id="portfolioHeading" data-i18n="portfolio.title">
+              پروژه‌های منتخب و دستاوردهای مهندسی
+            </h2>
+            <p class="section-subtitle">
+              مروری بر پروژه‌های شاخص در حوزه‌های زیرساختی، تجاری، مسکونی، صنعتی، توسعه شهری و عمرانی.
+            </p>
+          </header>
+
+          <div class="filter-bar gs-reveal" id="portfolioFilters" role="tablist" aria-label="فیلتر دسته‌بندی پروژه‌ها">
+            <button type="button" class="filter-btn is-active" data-filter="all">همه پروژه‌ها</button>
+            <button type="button" class="filter-btn" data-filter="infrastructure">پروژه‌های زیرساختی</button>
+            <button type="button" class="filter-btn" data-filter="commercial">ساختمان‌های تجاری</button>
+            <button type="button" class="filter-btn" data-filter="residential">پروژه‌های مسکونی</button>
+            <button type="button" class="filter-btn" data-filter="industrial">پروژه‌های صنعتی</button>
+            <button type="button" class="filter-btn" data-filter="urban">توسعه شهری</button>
+            <button type="button" class="filter-btn" data-filter="civil">پروژه‌های عمرانی</button>
+          </div>
+
+          <!-- Asymmetric portfolio grid rendered by js/main.js -->
+          <div class="portfolio-grid" id="portfolioGrid"></div>
+        </div>
+      </section>
+
+      <!-- 11. WORKFLOW -->
+      <section class="section workflow-section" id="workflow" aria-labelledby="workflowHeading">
+        <div class="container">
+          <header class="section-header gs-reveal">
+            <p class="section-eyebrow">فرآیند اجرایی</p>
+            <h2 class="section-title" id="workflowHeading">
+              متدولوژی پنج‌مرحله‌ای مدیریت و کنترل پروژه
+            </h2>
+            <p class="section-subtitle">
+              ساختاری مهندسی‌شده برای تضمین هم‌راستایی اهداف کارفرما، برنامه زمان‌بندی و کیفیت اجرایی در هر گام.
+            </p>
+          </header>
+
+          <div class="workflow-timeline" id="workflowTimeline">
+            <div class="timeline-track" aria-hidden="true">
+              <div class="timeline-progress" id="timelineProgress"></div>
+            </div>
+
+            <div class="workflow-steps">
+              <article class="workflow-step">
+                <div class="step-node">
+                  <span class="step-num tabular-nums">۰۱</span>
+                  <svg class="step-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="M21 21l-4.35-4.35" />
+                  </svg>
+                </div>
+                <h3>شناخت و تحلیل</h3>
+                <p>ارزیابی فنی، مطالعات امکان‌سنجی، تحلیل ذی‌نفعان و شناسایی ریسک‌های ساختاری پروژه.</p>
+              </article>
+
+              <article class="workflow-step">
+                <div class="step-node">
+                  <span class="step-num tabular-nums">۰۲</span>
+                  <svg class="step-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="16" rx="2" />
+                    <path d="M8 2v4M16 2v4M3 10h18" />
+                  </svg>
+                </div>
+                <h3>برنامه‌ریزی</h3>
+                <p>تدوین ساختار شکست کار (<bdi dir="ltr">WBS</bdi>)، زمان‌بندی <bdi dir="ltr">CPM</bdi> و خط مبنای بودجه.</p>
+              </article>
+
+              <article class="workflow-step">
+                <div class="step-node">
+                  <span class="step-num tabular-nums">۰۳</span>
+                  <svg class="step-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                  </svg>
+                </div>
+                <h3>سازماندهی</h3>
+                <p>استقرار دفتر مدیریت پروژه (<bdi dir="ltr">PMO</bdi>)، ساختار قراردادی، تدارکات و تخصیص منابع.</p>
+              </article>
+
+              <article class="workflow-step">
+                <div class="step-node">
+                  <span class="step-num tabular-nums">۰۴</span>
+                  <svg class="step-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <path d="M12 20V10M18 20V4M6 20v-4" />
+                  </svg>
+                </div>
+                <h3>اجرا و کنترل</h3>
+                <p>نظارت عالیه و کارگاهی، پایش لحظه‌ای <bdi dir="ltr">EVM</bdi>، کنترل کیفیت و مدیریت تغییرات.</p>
+              </article>
+
+              <article class="workflow-step">
+                <div class="step-node">
+                  <span class="step-num tabular-nums">۰۵</span>
+                  <svg class="step-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <path d="M22 4L12 14.01l-3-3" />
+                  </svg>
+                </div>
+                <h3>ارزیابی و بهینه‌سازی</h3>
+                <p>تحویل سیستماتیک، مستندسازی <bdi dir="ltr">As-Built</bdi>، ثبت درس‌آموخته‌ها و بهینه‌سازی بهره‌برداری.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12. TECHNOLOGY SECTION -->
+      <section class="section technology-section" id="technology" aria-labelledby="techHeading">
+        <div class="container">
+          <header class="section-header gs-reveal">
+            <p class="section-eyebrow" data-i18n="tech.eyebrow">تخصص‌ها و فناوری‌های نوین</p>
+            <h2 class="section-title" id="techHeading" data-i18n="tech.title">
+              تحول دیجیتال در مهندسی ساخت و کنترل پروژه
+            </h2>
+            <p class="section-subtitle">
+              بکارگیری فناوری‌های روز دنیا برای تبدیل داده‌های میدانی به تصمیم‌های مهندسی دقیق و پیش‌بینی‌پذیر.
+            </p>
+          </header>
+
+          <div class="tech-workbench gs-reveal">
+            <div class="tech-tabs" id="techTabs" role="tablist" aria-label="فناوری‌های مهندسی"></div>
+
+            <div class="tech-display-panel" id="techDisplayPanel">
+              <div class="tech-info">
+                <div class="tech-code-tag" id="techCode" dir="ltr">BIM · LOD 400</div>
+                <h3 class="tech-name" id="techTitle">مدل‌سازی اطلاعات ساختمان (<bdi dir="ltr">BIM</bdi>)</h3>
+                <p class="tech-desc" id="techDesc"></p>
+                <ul class="tech-specs" id="techSpecs"></ul>
+              </div>
+
+              <div class="tech-visual-stage" aria-hidden="true">
+                <svg class="tech-blueprint-svg" viewBox="0 0 360 280" fill="none">
+                  <defs>
+                    <pattern id="techGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+                      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#243B53" stroke-width="0.6" />
+                    </pattern>
+                  </defs>
+                  <rect width="360" height="280" fill="url(#techGrid)" />
+                  <g class="tech-orbit-group">
+                    <polygon points="180,34 300,100 300,180 180,246 60,180 60,100" stroke="#1677FF" stroke-width="1.2" fill="rgba(22,119,255,0.05)" />
+                    <polygon points="180,62 270,112 270,168 180,218 90,168 90,112" stroke="#00D4FF" stroke-width="1.2" stroke-dasharray="4 4" />
+                    <line x1="180" y1="34" x2="180" y2="246" stroke="#243B53" stroke-width="1" />
+                    <line x1="60" y1="100" x2="300" y2="180" stroke="#243B53" stroke-width="1" />
+                    <line x1="300" y1="100" x2="60" y2="180" stroke="#243B53" stroke-width="1" />
+                  </g>
+                  <g id="techSvgNodes">
+                    <circle cx="180" cy="140" r="22" stroke="#B6F23A" stroke-width="1.5" fill="rgba(182,242,58,0.08)" />
+                    <circle cx="180" cy="140" r="6" fill="#00D4FF" />
+                    <circle cx="180" cy="34" r="4" fill="#00D4FF" />
+                    <circle cx="300" cy="100" r="4" fill="#1677FF" />
+                    <circle cx="300" cy="180" r="4" fill="#00D4FF" />
+                    <circle cx="180" cy="246" r="4" fill="#B6F23A" />
+                    <circle cx="60" cy="180" r="4" fill="#1677FF" />
+                    <circle cx="60" cy="100" r="4" fill="#00D4FF" />
+                  </g>
+                </svg>
+                <div class="tech-stage-metric">
+                  <span id="techStageLabel">دقت هماهنگی سازه و تاسیسات</span>
+                  <strong class="tabular-nums" id="techStageValue">۹۹.۴٪</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13. WHY CHOOSE US -->
+      <section class="section why-section" id="why-us" aria-labelledby="whyHeading">
+        <div class="container">
+          <div class="why-split-layout">
+            <div class="why-visual-column gs-reveal">
+              <div class="kinetic-core-card">
+                <div class="kinetic-3d-stage" id="why3DStage" aria-hidden="true">
+                  <div class="iso-cube-scene">
+                    <div class="iso-layer layer-top">
+                      <span><bdi dir="ltr">BIM 5D</bdi></span>
+                    </div>
+                    <div class="iso-layer layer-mid">
+                      <span><bdi dir="ltr">PMO / EVM</bdi></span>
+                    </div>
+                    <div class="iso-layer layer-base">
+                      <span><bdi dir="ltr">ISO 19650</bdi></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="kinetic-caption">
+                  <h4>معماری یکپارچه تصمیم‌گیری</h4>
+                  <p>هم‌افزایی لایه‌های مهندسی، زمان، هزینه و ریسک در یک ساختار شفاف و قابل ممیزی.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="why-content-column gs-reveal">
+              <p class="section-eyebrow">مزیت رقابتی فراسازه</p>
+              <h2 class="section-title" id="whyHeading">
+                چرا سازمان‌های پیشرو ما را انتخاب می‌کنند؟
+              </h2>
+
+              <div class="why-pillars-grid">
+                <article class="why-pillar">
+                  <h3>نگاه راهبردی</h3>
+                  <p>هم‌راستاسازی اهداف فنی پروژه با بازگشت سرمایه و چشم‌انداز کلان کارفرما.</p>
+                </article>
+                <article class="why-pillar">
+                  <h3>تخصص مهندسی</h3>
+                  <p>بهره‌گیری از مهندسان ارشد در رشته‌های عمران، سازه، معماری، مکانیک و برق.</p>
+                </article>
+                <article class="why-pillar">
+                  <h3>کنترل دقیق هزینه و زمان</h3>
+                  <p>پایش مستمر انحرافات بر اساس مدل <bdi dir="ltr">EVM</bdi> و ارائه راهکارهای جبرانی سریع.</p>
+                </article>
+                <article class="why-pillar">
+                  <h3>شفافیت در گزارش‌دهی</h3>
+                  <p>دسترسی مدیریتی به گزارش‌های مستند، قابل ردیابی و بدون ابهام در تمام سطوح.</p>
+                </article>
+                <article class="why-pillar">
+                  <h3>مدیریت ریسک</h3>
+                  <p>شناسایی پیش‌دستانه گلوگاه‌های فنی، مالی و حقوقی پیش از تبدیل به بحران اجرایی.</p>
+                </article>
+                <article class="why-pillar">
+                  <h3>تصمیم‌گیری مبتنی بر داده</h3>
+                  <p>جایگزینی حدس و گمان با تحلیل کمی داده‌های کارگاهی و مدل‌های دیجیتال.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14. BLOG AND KNOWLEDGE CENTER -->
+      <section class="section blog-section" id="articles" aria-labelledby="blogHeading">
+        <div class="container">
+          <header class="section-header gs-reveal">
+            <p class="section-eyebrow" data-i18n="blog.eyebrow">مرکز دانش و مقالات</p>
+            <h2 class="section-title" id="blogHeading" data-i18n="blog.title">
+              تازه‌ترین تحلیل‌ها و مقالات تخصصی مهندسی
+            </h2>
+            <p class="section-subtitle">
+              مجموعه‌ای از یادداشت‌های فنی و استانداردهای روز مدیریت و کنترل پروژه، آماده اتصال به ساختار محتوای وردپرس.
+            </p>
+          </header>
+
+          <div class="filter-bar gs-reveal" id="blogFilters" role="tablist" aria-label="فیلتر موضوعات مقالات">
+            <button type="button" class="filter-btn is-active" data-blog-filter="all">همه مقالات</button>
+            <button type="button" class="filter-btn" data-blog-filter="project-management">مدیریت پروژه</button>
+            <button type="button" class="filter-btn" data-blog-filter="project-control">کنترل پروژه</button>
+            <button type="button" class="filter-btn" data-blog-filter="construction">مهندسی ساخت</button>
+            <button type="button" class="filter-btn" data-blog-filter="contracts">مدیریت قراردادها</button>
+            <button type="button" class="filter-btn" data-blog-filter="technology">فناوری‌های نوین</button>
+            <button type="button" class="filter-btn" data-blog-filter="civil">پروژه‌های عمرانی</button>
+          </div>
+
+          <!-- Article cards rendered dynamically by js/main.js -->
+          <div class="blog-grid" id="blogGrid"></div>
+        </div>
+      </section>
+
+      <!-- 15. CONTACT FORM -->
+      <section class="section contact-section" id="contact" aria-labelledby="contactHeading">
+        <div class="container">
+          <div class="contact-layout">
+            <div class="contact-intro gs-reveal">
+              <p class="section-eyebrow" data-i18n="contact.eyebrow">ارتباط با مهندسان مشاور</p>
+              <h2 class="section-title" id="contactHeading" data-i18n="contact.title">
+                پروژه بعدی شما، آغاز یک همکاری موفق
+              </h2>
+              <p class="section-lead">
+                برای دریافت مشاوره تخصصی در زمینه راه‌اندازی <bdi dir="ltr">PMO</bdi>، کنترل پروژه، مدل‌سازی <bdi dir="ltr">BIM</bdi> یا نظارت فنی، مشخصات پروژه خود را ثبت نمایید.
+              </p>
+
+              <div class="contact-details-list">
+                <div class="contact-detail-item">
+                  <span class="detail-label">دفتر مرکزی تهران</span>
+                  <span class="detail-value">تهران، بلوار میرداماد، برج مهندسی فراسازه، طبقه ۸ (آدرس نمونه)</span>
+                </div>
+                <div class="contact-detail-item">
+                  <span class="detail-label">تلفن تماس مستقیم</span>
+                  <a href="tel:+982188000000" class="detail-value tabular-nums" dir="ltr">+98 21 8800 0000</a>
+                </div>
+                <div class="contact-detail-item">
+                  <span class="detail-label">پست الکترونیک</span>
+                  <a href="mailto:info@farasazeh-pm.ir" class="detail-value" dir="ltr">info@farasazeh-pm.ir</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-panel gs-reveal">
+              <form id="consultationForm" class="engineering-form" novalidate>
+                <div class="form-row-2">
+                  <div class="form-field">
+                    <label for="fullName">نام و نام خانوادگی <span class="req">*</span></label>
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="مثال: مهندس آرش رضایی"
+                      autocomplete="name"
+                      required
+                    />
+                    <span class="field-error" id="fullNameError" role="alert"></span>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="company">نام شرکت یا سازمان</label>
+                    <input
+                      type="text"
+                      id="company"
+                      name="company"
+                      placeholder="نام مجموعه کارفرمایی"
+                      autocomplete="organization"
+                    />
+                    <span class="field-error" id="companyError" role="alert"></span>
+                  </div>
+                </div>
+
+                <div class="form-row-2">
+                  <div class="form-field">
+                    <label for="phone">شماره تماس <span class="req">*</span></label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      dir="ltr"
+                      placeholder="0912 000 0000"
+                      autocomplete="tel"
+                      required
+                    />
+                    <span class="field-error" id="phoneError" role="alert"></span>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="email">ایمیل <span class="req">*</span></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      dir="ltr"
+                      placeholder="name@company.ir"
+                      autocomplete="email"
+                      required
+                    />
+                    <span class="field-error" id="emailError" role="alert"></span>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label for="projectType">نوع پروژه <span class="req">*</span></label>
+                  <select id="projectType" name="projectType" required>
+                    <option value="">انتخاب کنید...</option>
+                    <option value="infrastructure">پروژه‌های زیرساختی و حمل‌ونقل</option>
+                    <option value="commercial">ساختمان‌های تجاری و اداری</option>
+                    <option value="industrial">پروژه‌های صنعتی، نفت و انرژی</option>
+                    <option value="residential">مجتمع‌های مسکونی کلان</option>
+                    <option value="pmo-bim">استقرار PMO و تحول دیجیتال (BIM / PMIS)</option>
+                    <option value="other">سایر خدمات مشاوره مهندسی</option>
+                  </select>
+                  <span class="field-error" id="projectTypeError" role="alert"></span>
+                </div>
+
+                <div class="form-field">
+                  <label for="message">شرح درخواست <span class="req">*</span></label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="خلاصه‌ای از ابعاد پروژه، موقعیت، فاز فعلی و نیاز مشاوره‌ای خود را بنویسید..."
+                    required
+                  ></textarea>
+                  <span class="field-error" id="messageError" role="alert"></span>
+                </div>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-primary btn-submit magnetic-btn" id="submitFormBtn">
+                    ارسال درخواست مشاوره
+                  </button>
+                </div>
+
+                <div class="form-feedback" id="formFeedback" role="status" aria-live="polite" hidden></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 16. FOOTER -->
+    <footer class="site-footer" id="footer">
+      <div class="footer-grid-bg" aria-hidden="true"></div>
+      <div class="container footer-container">
+        <div class="footer-top-grid">
+          <div class="footer-brand-col">
+            <a href="#hero" class="brand-logo">
+              <svg class="brand-mark" width="30" height="30" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <path d="M18 2L32 10V26L18 34L4 26V10L18 2Z" stroke="#00D4FF" stroke-width="1.5" />
+                <path d="M18 8L27 13V23L18 28L9 23V13L18 8Z" stroke="#1677FF" stroke-width="1.5" />
+                <circle cx="18" cy="18" r="2.5" fill="#B6F23A" />
+              </svg>
+              <span class="brand-name">مهندسان مشاور فراسازه</span>
+            </a>
+            <p class="footer-intro">
+              شریک تخصصی کارفرمایان در مدیریت مهندسی، برنامه‌ریزی، کنترل پروژه و تحول دیجیتال صنعت ساخت با استانداردهای بین‌المللی.
+            </p>
+            <div class="footer-social" aria-label="شبکه‌های اجتماعی">
+              <a href="#contact" class="social-link" aria-label="لینکدین مهندسان مشاور فراسازه" title="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+              <a href="#contact" class="social-link" aria-label="اینستاگرام مهندسان مشاور فراسازه" title="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="#contact" class="social-link" aria-label="تلگرام مهندسان مشاور فراسازه" title="Telegram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h3 class="footer-heading">دسترسی سریع</h3>
+            <ul class="footer-list">
+              <li><a href="#hero">صفحه اصلی</a></li>
+              <li><a href="#about">درباره ما</a></li>
+              <li><a href="#dashboard">داشبورد کنترل پروژه</a></li>
+              <li><a href="#portfolio">پروژه‌های منتخب</a></li>
+              <li><a href="#articles">مرکز دانش و مقالات</a></li>
+              <li><a href="#contact">تماس با ما</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h3 class="footer-heading">خدمات کلیدی</h3>
+            <ul class="footer-list">
+              <li><a href="#services">مدیریت پروژه (<bdi dir="ltr">PMO</bdi>)</a></li>
+              <li><a href="#services">برنامه‌ریزی و زمان‌بندی</a></li>
+              <li><a href="#services">کنترل پروژه و هزینه (<bdi dir="ltr">EVM</bdi>)</a></li>
+              <li><a href="#services">مدیریت ساخت و اجرا</a></li>
+              <li><a href="#services">مدیریت ریسک و قراردادها</a></li>
+              <li><a href="#technology">تحول دیجیتال و <bdi dir="ltr">BIM</bdi></a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter-col">
+            <h3 class="footer-heading">خبرنامه فنی و اطلاعات تماس</h3>
+            <p class="footer-contact-line">تهران، بلوار میرداماد، پلاک ۱۱۰ (نشانی نمونه)</p>
+            <p class="footer-contact-line tabular-nums" dir="ltr">+98 21 8800 0000 · info@farasazeh-pm.ir</p>
+
+            <form id="newsletterForm" class="newsletter-form" novalidate>
+              <label for="newsletterEmail" class="sr-only">ایمیل جهت عضویت در خبرنامه</label>
+              <input
+                type="email"
+                id="newsletterEmail"
+                name="newsletterEmail"
+                dir="ltr"
+                placeholder="ایمیل خود را وارد کنید..."
+                required
+              />
+              <button type="submit" class="btn btn-primary">عضویت</button>
+            </form>
+            <div class="newsletter-feedback" id="newsletterFeedback" role="status" aria-live="polite" hidden></div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">© ۱۴۰۵ مهندسان مشاور فراسازه. تمامی حقوق محفوظ است.</p>
+          <p class="wp-ready-note">معماری ماژولار استاندارد <bdi dir="ltr">HTML5 / ES6+</bdi></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Shared Accessible Detail Modal (Services / Portfolio / Articles) -->
+    <div class="detail-modal" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <div>
+            <span class="modal-kicker" id="modalKicker"></span>
+            <h3 class="modal-title" id="modalTitle"></h3>
+          </div>
+          <button type="button" class="icon-close-btn" id="modalCloseBtn" aria-label="بستن پنجره">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-footer" id="modalFooter"></div>
+      </div>
+    </div>
+
+    <!-- Modular Vanilla ES6+ JavaScript -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
