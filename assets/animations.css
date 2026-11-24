@@ -1,0 +1,82 @@
+/* ==========================================================================
+   ANIMATIONS & MOTION SYSTEM
+   Respects prefers-reduced-motion · Compositor-only GPU properties
+   ========================================================================== */
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes gridDrift {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 36px 36px;
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cubeHover {
+  0%, 100% {
+    transform: rotateX(56deg) rotateZ(45deg) translateZ(0px);
+  }
+  50% {
+    transform: rotateX(56deg) rotateZ(45deg) translateZ(10px);
+  }
+}
+
+.footer-grid-bg {
+  animation: gridDrift 24s linear infinite;
+}
+
+.fallback-ring.ring-1 {
+  animation: spinSlow 42s linear infinite;
+}
+
+.fallback-ring.ring-2 {
+  animation: spinSlow 28s linear infinite reverse;
+}
+
+.iso-cube-scene {
+  animation: cubeHover 6s ease-in-out infinite;
+}
+
+/* GSAP Reveal Initial State (only when JS is active) */
+.js-ready .gs-reveal {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+/* Reduced Motion Compliance */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .js-ready .gs-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
